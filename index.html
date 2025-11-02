@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 5</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <div class="caja_principal">
+        <div class="linea_rosa"> </div>
+        <div class="cabecera">
+            <div class="caja_margen ancho">
+                <div class="iz">
+                    <img src="imagenes/logocabecera.jpg" alt="">
+                </div>
+                <div class="der">
+                    <img src="imagenes/icono_facebook.jpg" alt="">
+                    <img src="imagenes/icono_instagram.jpg" alt="">
+                    <img src="imagenes/icono_twitter.jpg" alt="">
+                </div>
+                <div class="abj">
+                    <a href="#">GALERIA</a>
+                    <a href="#">PRECIOS</a>
+                    <a href="#">CONTACTANOS</a>
+                    <a href="#">EQUIPO</a>
+                </div> 
+                <br>
+            </div>
+        </div> 
+        <div class="imagen">
+            <div class="letraas ancho">
+                <h2>PROMOCIONES DE MARZO</h2>
+                <h3>Se acerca la epoca de playa y por eso preparamos estas dos <br> promociones idelaes para ti</h3>
+                <br> <br>
+                <div class="botones ancho">
+                    <div class="boton1"> <a href="#">Solicitar Promoción</a></div>
+                    <div class="boton2"><a href="#">ver Video</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion3 ancho">
+            <div class="iz">
+                <h2>Los productos Science of Beauty</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sapiente veniam iste. Voluptatem ad vitae ipsum quae! Accusamus mollitia fugit quam officiis praesentium deserunt, alias fuga ducimus at, repellendus asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sequi error id! Mollitia distinctio libero nobis minus accusamus quisquam eius. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, laudantium.</p>
+            </div>
+            <div class="der">
+                <img src="imagenes/fotovelas.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="seccion4 cabecera centrar">
+            <div class="letrilla ancho">
+                <h2>Buscamos talento para integrarlos a nuestro equipo</h2>
+            </div>
+            <div class="izq">
+            </div>
+            <div class="dere">
+                <h2>Puesto de trabajo para</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quod obcaecati, ducimus quidem molestiae error repellendus ipsam nostrum veniam explicabo, nisi adipisci est, ex ea assumenda suscipit optio quasi quae.</p>
+                <h2>Puesto de trabajo para</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quod obcaecati, ducimus quidem molestiae error repellendus ipsam nostrum veniam explicabo, nisi adipisci est, ex ea assumenda suscipit optio quasi quae.</p>
+                <h2>Puesto de trabajo para</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quod obcaecati, ducimus quidem molestiae error repellendus ipsam nostrum veniam explicabo, nisi adipisci est, ex ea assumenda suscipit optio quasi quae.</p>
+            </div>
+        </div>
+        <br>
+        <div class="seccion5 ancho">
+            <div class="izquierda">
+                <div class="datos">
+                    <h2>Recibe noticias y promociones <br> de SPA SALON</h2>
+                    <h3>Un lugar para consentirte de pies a cabeza <br>Servicio de salón estética y Span personalizado</h3>
+                    <br>
+                    <h3> <span class="rosita">TELEFONO: </span>999 429 8871</h3>
+                    <h3> <span class="rosita">CORREO: </span>info@spasalon.com</h3>
+                </div> <br>
+                <div class="formularito">
+                    <h2>Tu dirección de correo electrónico</h2>
+                    <form action="loquesa.html" method="get" name="formulario" id="formulario">
+                        <input type="email" name="email" id="email" class="campos" placeholder="*tunombe@example.com">
+                        <button type="button" id="enviar" class="enviar"> Enviar </button>
+                    </form>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>Nuestras Instalaciones</h2> <br> 
+                <iframe class="videito" width="550" height="275" src="https://www.youtube.com/embed/w4qaODLR_Xg?si=x0kzglYpw-Sj8FT1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <br><br><br> <br>
+        </div>
+        <div class="final cabecera">
+            <div class="ola0 ancho">
+                <div class="ola"><img src="imagenes/logo_spa.png" alt=""></div>
+                <div class="ola2">
+                    <h2>Bryan Josue Mendoza Rodriguez</h2>
+                    <h2>Programación Web</h2>
+                    <h2>7SA</h2>
+                </div>
+            </div> <br>
+        </div>
+        <div class="linea_rosa"> </div>
+    </div>
+
+
+    <script type="text/javascript">
+                $("#enviar").click(function () {
+                if (!$("#email")[0].checkValidity()) {
+                    alert("Escribe corectamente tu email");
+                    $("#email").focus();
+                    return 0;  
+                    }
+
+                if ($("#email").val().trim()=="") {
+                    alert("Escribe tu email");
+                    $("#email").focus();
+                    return 0;  
+                    }
+                document.getElementById("formulario").submit();
+                } 
+            );           
+        </script>
+</body>
+</html>

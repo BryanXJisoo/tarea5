@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 24px;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #333;
+}
+
+.margen{
+    padding: 10px;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.linea_rosa{
+    height: 20px; 
+    background-color: #ff3281;
+}
+
+.cabecera{
+    background-color: #FDF9F0;
+}
+
+
+.iz{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.der{
+    margin-top: 40px;
+    width: 630px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+.der img:last-child{
+    padding-left: 15px;
+}
+
+.der img:nth-child(2){
+    padding-left: 15px;
+}
+
+
+.abj{
+    border: 2px black solid ;
+
+}
+
+.abj a{
+    text-decoration: none;
+    padding: 106px;
+    color: black;
+    font-weight: bolder;
+}
+
+.imagen{
+    background-image: url(imagenes/fondopiedras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+
+.letraas{
+    color: white;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.letraas h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.letraas h3{
+    font-size: 20px ;
+}
+
+.boton1{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ff3281;
+    padding: 15px 2px;
+    margin-right: 20px;
+}
+
+.boton1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.boton2{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px #ff3281 solid ;
+    padding: 15px 2px;
+}
+
+.boton2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.iz h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.iz p{
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.letrilla{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.izq{
+    background-image: url(imagenes/fotoaromatizante.jpg);
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    height: 365px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.dere{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.dere h2{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.dere p{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+.izquierda{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 45px;
+}
+
+
+.datos h2{
+    font-size: 28px;
+}
+
+.datos h3{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.rosita{
+    color: #ff3281;
+}
+
+.formularito{
+    border: 3px solid #ff3281;
+    padding: 10px;
+    width: 470px;
+}
+
+.formularito h2{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.derecha{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.campos{
+    width: 440px;
+    height: 38px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.videito{
+    border-radius: 5px;
+}
+
+.ola{
+    padding-top: 20px;
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.ola2{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    color: #ff3281;
+    padding-top: 60px;
+}
